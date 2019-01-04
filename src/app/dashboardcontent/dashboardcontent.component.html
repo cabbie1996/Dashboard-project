@@ -1,0 +1,48 @@
+<div class="row box">
+  <div class="col-md-4 upper-box">
+    <mat-card>
+      no. of Customer
+      <p>56</p>
+    </mat-card>
+
+  </div>
+  <div class="col-md-4 upper-box">
+    <mat-card>
+      Total no. of Pending
+      <p>342</p>
+    </mat-card>
+
+  </div>
+  <div class="col-md-4 upper-box">
+    <mat-card>
+      Total no. of Income
+      <p>109789</p>
+    </mat-card>
+  </div>
+</div>
+<h2>Content</h2>
+<div class="table-content" #content>
+  <table class="table-bordered"  style="width:100%">
+    <tr>
+      <th>Email</th>
+      <th>Agent Phone</th>
+      <th>Authorized Agent</th>
+      <th>Billing Address</th>
+      <th>Billing City</th>
+    </tr>
+    <tr >
+      <td>{{email}}</td> <!--get value from local storage and print it in HTML -->
+      <td>{{data.agentphone}}</td>
+      <td>{{data.authorizedagent}}</td>
+      <td>{{data.billingaddress}}</td>
+      <td>{{data.billingcity}}</td>
+    </tr>
+  </table>
+
+</div>
+
+<!-- for delete local storage -->
+<button (click)="delete_email()">delete</button>
+
+<!-- download pdf -->
+<button (click)="downloadpdf()">Download PDF</button>

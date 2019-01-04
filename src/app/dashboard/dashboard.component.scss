@@ -1,0 +1,37 @@
+ul{
+  list-style-type: none;
+}
+
+ul{
+    li{
+          p:hover{
+            color:#63a4ba;
+        
+        }
+    }
+}
+// a:link {
+//     text-decoration: none;
+// }
+ul{
+    li{
+        padding:10px 20px 0px 0px;
+    }
+}
+.sidebar-content{
+    text-align: center;
+    background-color: #313439;
+    color:grey;
+    font-weight: bold;
+    font-size:22px;
+    height: 100vh;
+    padding-top: 5%;
+}
+img{
+    width: 60%;
+    height: 60%;
+    text-align: center !important;
+}
+a:visited {
+    background-color: #ccc;
+}

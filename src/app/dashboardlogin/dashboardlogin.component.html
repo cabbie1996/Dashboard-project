@@ -1,0 +1,25 @@
+<div class="login-form">
+    <form [formGroup]="ngform" (ngSubmit)="loginApi()">
+        <h2 class="text-center">Log in</h2>       
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Email" required="required" formControlName="email">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password" required="required" formControlName="password">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Log in</button>
+        </div>
+        <div class="clearfix">
+            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+        </div>        
+    </form>
+    <p class="text-center"><a routerLink="/signup">Create an Account</a></p>
+</div>
+
+<!-- Lazy loading implemented 
+1. create dashboardlogin.module in dashboardlogin folder
+2.create dashboardlogin.routing folder
+3.import all related libaries in dashboardlogin.module related to dashboardlogin file
+4.remove deleclartion from app.module of dashboardlogin component
+-->

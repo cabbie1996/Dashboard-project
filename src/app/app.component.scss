@@ -1,0 +1,27 @@
+// $value :1600;
+// @for $i from 1 through 2000{
+//   .abc-#{$i}
+  
+//   {
+//     @if($i==1600){
+//     @media screen and (max-height: $i px){
+//         color:red;
+//     }
+//   }
+//   @else{} @if($i==1100){
+//     @media screen and (max-height: $i px){
+//         color:blue;
+//     }
+//   }
+//   @else{} @if($i==900){
+//     @media screen and (max-height: $i px){
+//         color:yellow;
+//     }
+//   }
+//   @else{} @if($i==600){
+//     @media screen and (max-height: $i px){
+//         color:green;
+//     }
+//   }
+// }
+//   }

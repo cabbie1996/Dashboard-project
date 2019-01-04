@@ -1,0 +1,28 @@
+.box{
+    padding-top:3%;
+    font-weight:800;
+    font-size:22px;
+}
+p{
+    text-align:right;
+    font-size:22px !important;
+}
+h2{
+    padding:10px;
+    font-size:24px;
+    font-weight:800;
+}
+::ng-deep .mat-slide-toggle.mat-checked .mat-slide-toggle-thumb{
+    background-color:#63a4b4 !important;
+}
+::ng-deep .mat-slide-toggle.mat-checked .mat-slide-toggle-bar{
+    background-color:#76c3d7 !important;
+}
+.options-text{
+    font-size:9px !important;
+    font-weight:200;
+    
+}
+.options-label{
+    text-align: left;
+}
